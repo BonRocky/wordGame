@@ -37,8 +37,5 @@ while not(GameOver):
     if attempt != 0: 
         print(f'Попыток осталось: {attempt}...')
     else:
-        print("Игра проиграна :(")
+        print(f"Игра проиграна :( Загаданное слово: {guessWord}")
         break
-
-
-
